@@ -1,3 +1,67 @@
-body{
-    background-color: red;
+/* general */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root {
+	--color-accessory: #7e93dc;
+	--color-secondary: #ffffff;
+	--color-primary: #292841;
+	--color-section-bg: #f6f6f6;
+	--color-header-bg: #2a5ee8;
+}
+ul{
+    list-style: none;
+}
+/* utility */
+
+.debug{
+    border:1px solid black;
+    min-height: 30px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.content{
+    padding:60px;
+}
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.d-flex>ul{
+    flex-flow: row;
+    justify-content: center;
+}
+.flex-center{
+    justify-content: center;
+    /* margin:auto; */
+}
+.logo-size{
+    max-width:100px;
+}
+
+/* variables */
+/* header */
+/* header{
+  
+} */
+.header-bottom{
+    /* width: 100%; */  background-color: var(--color-header-bg);
+}
+.secondary-text{
+    color:var(--color-secondary)
+}
+.hero-content{
+    min-height: 600px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
