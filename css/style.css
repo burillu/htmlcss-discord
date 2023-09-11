@@ -54,7 +54,12 @@ ul{
 .logo-size{
     max-width:100px;
 }
-
+.flex-even{
+    justify-content: space-evenly;    
+}
+.btn-container{
+    padding: 30px;
+}
 
 /* header */
 .header-bottom{
@@ -62,6 +67,7 @@ ul{
 }
 .title-header{
     padding: 30px;
+    font-size: 2em;
 }
 .secondary-text{
     color:var(--color-secondary)
