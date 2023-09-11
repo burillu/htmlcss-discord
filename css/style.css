@@ -25,10 +25,10 @@ ul{
 }
 /* utility */
 
-.debug{
+/* .debug{
     border:1px solid black;
     min-height: 30px;
-}
+} */
 .container{
     max-width: 1200px;
     margin: 0 auto;
