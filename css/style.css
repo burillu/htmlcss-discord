@@ -12,8 +12,15 @@
 	--color-section-bg: #f6f6f6;
 	--color-header-bg: #2a5ee8;
 }
+body{
+    font-size: 18px;
+}
 ul{
     list-style: none;
+}
+.text-center{
+    text-align: center;
+
 }
 /* utility */
 
@@ -26,7 +33,7 @@ ul{
     margin: 0 auto;
     padding: 20px;
 }
-.content{
+.content-air{
     padding:60px;
 }
 .d-flex{
@@ -48,13 +55,13 @@ ul{
     max-width:100px;
 }
 
-/* variables */
+
 /* header */
-/* header{
-  
-} */
 .header-bottom{
     /* width: 100%; */  background-color: var(--color-header-bg);
+}
+.title-header{
+    padding: 30px;
 }
 .secondary-text{
     color:var(--color-secondary)
@@ -64,4 +71,19 @@ ul{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
+}
+.hero-content>.container{
+    max-width: 800px;
+}
+.hero-content p{
+    line-height: 30px;
+    margin: 0 30px;
+}
+/* variables */
+
+.even{
+    background-color: var(--color-section-bg);
+}
+main>section{
+    background-color: var(--color-secondary);
 }
