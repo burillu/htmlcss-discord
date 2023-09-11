@@ -43,9 +43,11 @@ ul{
     align-items: center;
     align-content: center;
 }
-.d-flex>ul{
+ul.d-flex{
+    min-width: 600px;
     flex-flow: row;
-    justify-content: space-between;
+    justify-content: space-between
+
 }
 .flex-center{
     justify-content: center;
