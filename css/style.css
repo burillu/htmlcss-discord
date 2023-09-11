@@ -39,7 +39,6 @@ ul{
 .d-flex{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
     align-items: center;
     align-content: center;
 }
@@ -67,6 +66,9 @@ ul.d-flex{
 .header-bottom{
     /* width: 100%; */  background-color: var(--color-header-bg);
 }
+div.d-flex.container{
+    justify-content: space-between;
+}
 .title-header{
     padding: 30px;
     font-size: 2em;
@@ -92,6 +94,32 @@ ul.d-flex{
 .even{
     background-color: var(--color-section-bg);
 }
+
+/* main */
 main>section{
     background-color: var(--color-secondary);
+}
+
+/* footer */
+footer{
+    background-color: var(--color-primary);
+}
+.footer-top{
+    justify-content: center;
+
+}
+
+.footer-container{
+    min-width: calc(100% / 5);
+}
+.footer-bottom{
+    border-top: var(--color-accessory);
+}
+.footer-container li{
+    padding:10px 0;
+}
+.footer-container li:first-child{
+    color: var(--color-accessory);
+    font-weight: bold;
+
 }
