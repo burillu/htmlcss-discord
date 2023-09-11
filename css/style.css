@@ -61,6 +61,20 @@ ul.d-flex{
 .btn-container{
     padding: 30px;
 }
+.btn{
+    text-decoration: none;
+    background-color: var(--color-secondary);
+    border-radius: 30px;
+    padding: 15px;
+}
+.btn-black{
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+}
+.btn-accessory{
+    background-color: var(--color-accessory);
+    color: var(--color-secondary);
+}
 
 /* header */
 .header-bottom{
@@ -111,7 +125,6 @@ footer{
     font-size: 0.8em;
 
 }
-
 .footer-container{
     min-width: calc(100% / 5);
 }
@@ -129,4 +142,5 @@ footer{
 .footer-container>h1{
     color: var(--color-accessory);
     font-size: 1.4em;
+    padding:60px 0 20px;
 }
