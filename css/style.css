@@ -38,7 +38,7 @@ ul{
 }
 .d-flex>ul{
     flex-flow: row;
-    justify-content: center;
+    justify-content: space-between;
 }
 .flex-center{
     justify-content: center;
