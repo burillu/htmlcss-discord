@@ -21,6 +21,7 @@ ul{
 }
 li a{
     display:block;
+    color: var(--color-secondary);
 }
 nav li:hover{
     text-decoration: underline;
@@ -53,14 +54,21 @@ h2{
 .d-flex{
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
-    align-content: center;
+    /* align-items: center;
+    align-content: center; */
 }
 .row-reverse{
     flex-direction: row-reverse;
 }
+.align-center{
+    align-items: center;
+    align-content: center;
+}
 .align-start{
     align-items: flex-start;
+}
+.justify-start{
+    justify-content: flex-start;
 }
 .flex-center{
     justify-content: center;
@@ -207,4 +215,11 @@ footer{
 }
 .flag-select{
     width: 30px;
+}
+.ul-icon li{
+    padding: 30px 0;
+
+}
+.fa-ul{
+    margin-left: 0;
 }
