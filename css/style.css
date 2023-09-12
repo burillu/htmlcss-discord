@@ -54,7 +54,7 @@ h2{
 }
 .d-flex{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     /* align-items: center;
     align-content: center; */
 }
@@ -200,11 +200,10 @@ footer{
 .footer-container li{
     padding:10px 0;
 }
-/* .footer-container li:first-child{
+.footer-container h3{
     color: var(--color-accessory);
     font-weight: bold;
-
-} */
+}
 .footer-container>h2{
     color: var(--color-accessory);
     font-size: 2em;
