@@ -193,8 +193,8 @@ footer{
     font-weight: bold;
 
 }
-.footer-container>h1{
+.footer-container>h2{
     color: var(--color-accessory);
-    font-size: 1.4em;
+    font-size: 2em;
     padding:60px 0 20px;
 }
