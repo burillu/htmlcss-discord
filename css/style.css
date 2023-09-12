@@ -56,6 +56,9 @@ h2{
     align-items: center;
     align-content: center;
 }
+.row-reverse{
+    flex-direction: row-reverse;
+}
 .align-start{
     align-items: flex-start;
 }
@@ -137,10 +140,19 @@ main>section{
 .itm-size{
     width: 65%;
 }
+.last-itm{
+    width: 100%;
+}
+.last-itm img{
+    width: inherit;
+}
 .section-content{
     width: 35%;
     padding: 0 20px;
 }
+/* .last-section{
+
+} */
 
 /* footer */
 footer{
