@@ -19,6 +19,9 @@ body{
 ul{
     list-style: none;
 }
+nav li:hover{
+    text-decoration: underline;
+}
 .text-center{
     text-align: center;
 
@@ -32,7 +35,7 @@ ul{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px 0;
 }
 .content-air{
     padding:60px;
@@ -43,21 +46,19 @@ ul{
     align-items: center;
     align-content: center;
 }
-ul.d-flex{
-    min-width: 600px;
-    flex-flow: row;
-    justify-content: space-between;
-}
 .flex-center{
     justify-content: center;
     /* margin:auto; */
 }
-
+.flex-between{
+    justify-content: space-between;
+}
 .flex-even{
     justify-content: space-evenly;    
 }
 .btn-container{
     padding: 30px;
+    gap: 20px;
 }
 .btn{
     text-decoration: none;
@@ -79,11 +80,11 @@ ul.d-flex{
 .header-bottom{
     /* width: 100%; */  background-color: var(--color-header-bg);
 }
-.logo-size{
+/* .logo-size{
     max-width:100px;
-}
-div.d-flex.container{
-    justify-content: space-between;
+} */
+nav li{
+    padding:0 15px;
 }
 .title-header{
     padding: 30px;
