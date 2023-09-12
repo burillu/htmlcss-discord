@@ -20,10 +20,11 @@ ul{
     list-style-type: none;
 }
 li a{
-    display:block;
+    /* display:block; */
     color: var(--color-secondary);
+    text-decoration: none;
 }
-nav li:hover{
+nav a:hover{
     text-decoration: underline;
 }
 .text-center{
