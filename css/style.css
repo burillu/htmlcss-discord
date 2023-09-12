@@ -156,10 +156,16 @@ main>section{
 .last-section~h3{
     padding-top: 40px;
     width: 50%;
+    font-size: larger;
     margin: 0 auto;
     background-image: url(../img/stars.svg);
     background-size: contain;
     background-repeat: no-repeat;
+}
+.last-section-btn{
+    padding: 40px;
+    width: 50%;
+    margin: 0 auto;
 }
 
 /* footer */
