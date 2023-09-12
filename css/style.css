@@ -150,9 +150,17 @@ main>section{
     width: 35%;
     padding: 0 20px;
 }
-/* .last-section{
-
-} */
+.last-section p{
+    padding: 0 80px;
+}
+.last-section~h3{
+    padding-top: 40px;
+    width: 50%;
+    margin: 0 auto;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
 /* footer */
 footer{
