@@ -189,10 +189,13 @@ footer{
 }
 .footer-container{
     min-width: calc(100% / 5);
+    
+}
+.footer-top>div{
+    padding: 60px 20px 60px 30px;
 }
 .footer-bottom{
     border-top: 2px solid var(--color-accessory);
-    justify-content: space-between;
 }
 .footer-container li{
     padding:10px 0;
